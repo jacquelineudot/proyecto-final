@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+    font-size: 70px;
+    color: rgb(241, 255, 255);
+    
+    
+}
+
+
+.contenedor{ 
+    position: relative;
+    top: 150px;
+   
+}
+
+
+.contenedor_p{
+     position: relative;
+     top: 300px;
+     color: rgb(241, 255, 255);
+     
+
+}
+ 
+div{ 
+    text-align: center;
+    position: relative;
+
+}
+
+
+body { 
+
+    background-image: url(inicio.png);
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 100em;
+
+    
+}
+
+.boton{
+    border: 2px solid rgb(49, 48, 48);
+    color: rgb(62, 63, 63);
+    border-radius: 15px;
+    background-color: rgb(213, 223, 223);
+    padding: 10px;
+    box-shadow: 2px 3px 3px 2px rgb(135, 138, 138);
+    
+    
+}
+

@@ -1,0 +1,115 @@
+*{ padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+ .cuerpo { 
+   background-color: rgb(255, 255, 255) ;
+ }
+
+header{
+ padding-top: 5px;
+ position: sticky;
+ top: 1px;
+ z-index: 2;
+ background-color:rgb(212, 203, 203) ;
+ box-shadow: 2px 2px 3px 3px ;
+ height: 90px;
+
+}
+
+.contenedor-imagen {
+    display: flexbox;
+
+}
+
+
+
+.imagen {
+   background-size: 19rem;
+   margin-top: -10px;
+   
+   
+}
+
+nav{
+     display: flex;
+     flex-direction: row-reverse;
+     height: 60px;
+    
+    
+}
+
+.contenedor { 
+     margin-top: -80px;
+     border-radius: 20px 0px 0px 20px;
+     height: 50px;
+     display: flex;
+     flex-direction: row-reverse;
+    
+}
+
+
+.fila{
+   display: flex;
+    padding: 30px;
+
+   
+}
+
+.columna { 
+    padding: 20px;
+    font-family: gayathri, thin;
+   
+    font-size: 20px;
+    margin-top: -20px;
+    
+
+}
+
+.boton{
+    
+    border-style: none;
+    background-color: rgb(212, 203, 203);
+    color: rgb(0, 0, 0);
+    font-family: uroob;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.intro{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 150px;
+    font-weight:bold;
+    
+}
+
+.carousel { 
+ box-shadow: 10px 10px 50px 5px;
+ border: 3px solid rgb(78, 77, 77);
+ height: 400px;
+ width: 400px;
+ 
+ }
+
+ #carouselExampleControls{
+    position: relative;
+    z-index: 1;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+ }
+
+
+
+ 
+   
+ 
+
+  
+ 
+
